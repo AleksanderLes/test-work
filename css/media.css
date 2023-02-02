@@ -1,0 +1,127 @@
+@media (max-width: 1024px) {
+    /* header */
+    .burger {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        width: 36px;
+        height: 30px;
+    }
+    .burger__line {
+        position: absolute;
+        left: 0;
+        height: 4px;
+        width: 75%;
+        background-color: var(--color-white);
+        transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+    .burger__line:nth-child(1) {
+        width: 100%;
+        top: 0;
+    }
+    .burger__line:nth-child(3) {
+        width: 50%;
+        bottom: 0;
+    }
+    .burger__line:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .burger--active .burger__line:nth-child(2) {
+        opacity: 0;
+    }
+    .burger--active .burger__line:first-child {
+        left: 0;
+        top: 50%;
+        transform: rotate(45deg);
+        transform-origin: center;
+    }
+    .burger--active .burger__line:last-child {
+        bottom: auto;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        transform: rotate(-45deg);
+        transform-origin: center;
+    }
+    .header__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-width: 250px;
+        height: 100vh;
+        z-index: 100;
+        padding: 100px 50px 50px;
+        background-color: var(--color-black);
+        overflow-y: auto;
+        visibility: hidden;
+        transform: translateX(-120%);
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+    .header__nav--active {
+        visibility: visible;
+        transform: none;
+    }
+    .header__nav .nav__list {
+        flex-direction: column;
+    }
+    .header__nav .nav__item {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .header__nav .nav__link {
+        font-size: 24px;
+    }
+    .header__nav .header__login {
+        display: inline-block;
+        position: relative;
+        padding: 19px 88px 22px;
+        font-size: 18px;
+        border: 2px solid var(--color-akcent);
+        border-radius: 100px;
+    }
+    /* состояния */
+    .burger:focus:not(:hover) {
+        outline-offset: 5px;
+        outline: 2px solid var(--color-akcent);
+    }
+    .burger:hover {
+        outline: none;
+    }
+    .burger:hover .burger__line {
+        background-color: var(--color-akcent);
+    }
+    .burger:active .burger__line {
+        background-color: var(--color-active);
+    }
+    /*modal*/
+    .modal__container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 690px) {}
+
+@media (max-width: 580px) {
+    .container {
+        padding: 0 10px;
+    }
+    /* header */
+    .burger {
+        width: 25px;
+        height: 18px;
+    }
+    .burger__line {
+        height: 2px;
+    }
+    .header__nav .nav__item {
+        margin-bottom: 30px;
+    }
+    .header__nav .nav__link {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}

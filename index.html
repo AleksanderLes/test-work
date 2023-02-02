@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeezotje</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container flex">
+            <button class=" header__burger burger btn-resert" title="Main menu call button">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+            </button>
+            <a class=" header__logo">
+                <img class="logo" src="img/header__logo.png" alt="Logotip">
+            </a>
+            <nav class=" header__nav nav flex" title="Main navigation">
+                <ul class="nav__list list-resert flex">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">&Agrave;&nbsp;la&nbsp;carte</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Wijnkaart</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">Lunchmenu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="tel:+3292825725" class="header__contact-link flex">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z" stroke="#D3B47F" stroke-width="1.5" stroke-miterlimit="10"/>
+                      <path d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5" stroke="#D3B47F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M22 9C22 5.13 18.87 2 15 2" stroke="#D3B47F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> +32 9&nbsp;282 57&nbsp;25
+            </a>
+
+        </div>
+    </header>
+
+
+    <main class="main">
+
+        <section class="hero">
+            <div class="hero__background">
+            </div>
+            <div class="container hero__container">
+                <span class="hero__text">OPEN EVERYDAY   6AM&nbsp;&mdash; 9PM</span>
+                <h1 class="hero__title">A&nbsp;bad day with lunch is&nbsp;better than a&nbsp;good day without&nbsp;it.</h1>
+                <div class="hero__contacts flex">
+                    <button class="hero__btn btn  btn-resert" data-path="first" data-animation="fadeInUp" data-speed="700">Reserve a&nbsp;table</button>
+                    <ul class="hero__list list-resert flex">
+                        <li class="hero__item">
+                            <a href="#" class="hero__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M14.4399 30H16.6799V25.28H20.2479V23.504H16.6799V20.64H21.3359V18.832H14.4399V30ZM25.1643 22.432V18.16H22.9243V30H25.1643V28.736C25.7083 29.504 26.7003 30.144 28.0923 30.144C30.3643 30.144 32.1403 28.304 32.1403 25.536C32.1403 22.768 30.3643 20.992 28.0923 20.992C26.7483 20.992 25.7083 21.616 25.1643 22.432ZM29.8523 25.536C29.8523 27.216 28.7163 28.176 27.5003 28.176C26.3003 28.176 25.1643 27.248 25.1643 25.568C25.1643 23.888 26.3003 22.96 27.5003 22.96C28.7163 22.96 29.8523 23.856 29.8523 25.536Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero__item">
+                            <a href="#" class="hero__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M16.4556 30H18.6956V18.832H16.4556V30ZM20.3327 25.536C20.3327 28.304 22.1247 30.144 24.3807 30.144C25.7727 30.144 26.7807 29.456 27.3087 28.688V30.064C27.3087 31.712 26.3487 32.416 25.1167 32.416C23.9967 32.416 23.1647 31.888 22.9407 31.088H20.7167C20.9407 33.12 22.6847 34.368 25.1807 34.368C28.0927 34.368 29.5647 32.464 29.5647 30.064V21.136H27.3087V22.4C26.7807 21.632 25.7727 20.992 24.3807 20.992C22.1247 20.992 20.3327 22.768 20.3327 25.536ZM27.3087 25.568C27.3087 27.248 26.1887 28.176 24.9567 28.176C23.7567 28.176 22.6207 27.216 22.6207 25.536C22.6207 23.856 23.7567 22.96 24.9567 22.96C26.1887 22.96 27.3087 23.888 27.3087 25.568Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero__item">
+                            <a href="#" class="hero__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M12.6448 20.64H15.6208V30H17.8608V20.64H20.8368V18.832H12.6448V20.64ZM24.0872 30H26.5192L28.1352 23.808L29.7512 30H32.1672L34.7592 21.136H32.6152L31.0472 27.872L29.3832 21.136H27.0152L25.3192 27.888L23.7512 21.136H21.4792L24.0872 30Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="hero__item">
+                            <a href="#" class="hero__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M25.2965 18.832L21.5205 26.112V30H19.2805V26.112L15.4885 18.832H18.0165L20.4165 23.936L22.8005 18.832H25.2965ZM29.1964 22.976V27.264C29.1964 27.5627 29.2657 27.7813 29.4044 27.92C29.5537 28.048 29.799 28.112 30.1404 28.112H31.1804V30H29.7724C27.8844 30 26.9404 29.0827 26.9404 27.248V22.976H25.8844V21.136H26.9404V18.944H29.1964V21.136H31.1804V22.976H29.1964Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+        <section id="menu" class="menu">
+            <div class="container ">
+                <div class="menu__container flex">
+                    <h2 class="visually-hidden">&Agrave;&nbsp;la&nbsp;carte</h2>
+                    <div class="menu__left">
+                        <ul class="menu__list list-resert">
+                            <li class="menu__item">
+                                <h3 class="menu__sub-title">Woensdag 12/01</h3>
+                                <div class="menu__descr flex">
+                                    <span class="menu__sub-descr">Salade met Serrano</span>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <span class="menu__sub-descr">Steak Tartaar</span>
+                                </div>
+                            </li>
+                            <li class="menu__item">
+                                <h3 class="menu__sub-title">Donderdag 13/01</h3>
+                                <div class="menu__descr flex">
+                                    <span class="menu__sub-descr">Toast Roquefort</span>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <span class="menu__sub-descr">Penne met Kip en&nbsp;Prei</span>
+                                </div>
+                            </li>
+                            <li class="menu__item">
+                                <h3 class="menu__sub-title">Vrijdag 14/01
+                                </h3>
+                                <div class="menu__descr flex">
+                                    <span class="menu__sub-descr">Verrassing van de&nbsp;Chef</span>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                    </svg>
+                                    <span class="menu__sub-descr">Penne met Kip en&nbsp;Prei</span>
+                                </div>
+                            </li>
+                            <li class="menu__item">
+                                <h3 class="menu__sub-title">Vrijdag 15/01
+                                </h3>
+                                <div class="menu__descr flex">
+                                    <span class="menu__sub-descr">Verrassing van de&nbsp;Chef</span>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                  </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                  </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                  </svg>
+                                    <span class="menu__sub-descr">Penne met Kip en&nbsp;Prei</span>
+                                </div>
+                            </li>
+                            <li class="menu__item">
+                                <h3 class="menu__sub-title">Vrijdag 16/01
+                                </h3>
+                                <div class="menu__descr flex">
+                                    <span class="menu__sub-descr">Verrassing van de&nbsp;Chef</span>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                </svg>
+                                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                                </svg>
+                                    <span class="menu__sub-descr">Penne met Kip en&nbsp;Prei</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu__right">
+
+                        <div class="menu__frame"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="reviews">
+            <div class="container reviews__container">
+                <h2 class="visually-hidden">reviews</h2>
+                <div class="reviews__swiper-container">
+                    <button class="nav-btn reviews__btn-prev" aria-label="go to the previous slide">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1"  stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                    <button class="nav-btn reviews__btn-next" aria-label="go to the next slide">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.1042 11.9L45.1208 30.9166C47.3667 33.1625 47.3667 36.8375 45.1208 39.0833L26.1042 58.1"  stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+
+                    <div class="swiper reviews__swiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide reviews__slides">
+                                <img class="reviews__img" src="img/reviews/reviews__simbol.png" alt="">
+                                <h3 class="reviews__sub-title">Goede service, lekker eten, toffe ambiance</h3>
+                                <p class="reviews__descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores
+                                    et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.
+                                </p>
+                                <span class="reviews__author">ALAIN HEYNDRICKX</span>
+                            </div>
+                            <div class="swiper-slide reviews__slides">
+                                <img class="reviews__img" src="img/reviews/reviews__simbol.png" alt="">
+                                <h3 class="reviews__sub-title">Goede service, lekker eten, toffe ambiance</h3>
+                                <p class="reviews__descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores
+                                    et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.
+                                </p>
+                                <span class="reviews__author">KATERINA</span>
+                            </div>
+                            <div class="swiper-slide reviews__slides">
+                                <img class="reviews__img" src="img/reviews/reviews__simbol.png" alt="">
+                                <h3 class="reviews__sub-title">Goede service, lekker eten, toffe ambiance</h3>
+                                <p class="reviews__descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores
+                                    et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.
+                                </p>
+                                <span class="reviews__author">ALIAKSANDR</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+    </footer>
+
+    <div class="modal">
+        <div class="modal__container" data-target="first">
+            <button class="modal-close">X</button>
+            <div class="modal__content">
+                <h2 class="modal__title">Reserve a&nbsp;table</h2>
+                <form class="modal__form flex" action="№" enctype="multipart/form-data" method="POST">
+                    <input type="hidden" name="admin_email[]" value="les519@tut.by">
+                    <input type="hidden" name="form_subject" value="Тестовое задание">
+                    <div class="modal__inputs flex">
+                        <label class="modal__label" aria-label="Input your name">
+                          <span>Name</span>
+                        <input class="modal__input" id="name" type="text" name="name" placeholder="Input your name" data-validate-field="name" required>
+                        </label>
+                        <label class="modal__label" aria-label="Input your email">
+                          <span>Email</span>
+                        <input class="modal__input" type="email" name="email" placeholder="Input your email" data-validate-field="mail" required>
+                        </label>
+                    </div>
+                    <label class="modal__label modal__label--textarea" aria-label="Input your special request">
+                    <span>Speciale Request</span>
+                      <textarea class="modal__textarea" name="comment" placeholder="Input your special request"></textarea>
+                    </label>
+                    <button class="btn modal__btn btn-resert">Send</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/just-validate.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
